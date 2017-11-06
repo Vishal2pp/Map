@@ -1,0 +1,23 @@
+{
+	"titles":
+		{
+			"text": "OLabs Teachers Training Status (CBSE)"
+		}
+
+	,
+	"legend": {
+		"colorSteps": 7,
+		"minValueText": "No Training",
+		"maxValueText": "100% Training"
+	},
+	"labels": [],
+	"balloonPopup": {
+		"Textformat": "<div><strong>[[title]]</strong></div><br><div>[[description]]</div>"
+	},
+	"commonDescriptionText": {
+		"CBSESchools": "<table style='font-size: inherit;'><tr><td style='white-space: nowrap;'>CBSE Schools Trained</td><td>:</td><td><strong>[[CBSESchoolsTrained]]/[[TotalCBSESchools]] <sup>([[PercentageCovered]])</sup></strong></td></tr><tr><td style='white-space: nowrap;'>Teachers trained</td><td>:</td><td><strong>[[TeachersTrained]]</strong></td></tr></table>"
+	},
+	"commonStateDescriptionText":{
+		"StateSchools":"<table style='font-size: inherit;'><tr><td style='white-space: nowrap;'>State Schools Trained</td><td>:</td><td><strong>[[StateSchoolsTrained]] </strong></td></tr><tr><td style='white-space: nowrap;'>Teachers trained</td><td>:</td><td><strong>[[StateTeachersTrained]]</strong></td></tr></table>"
+	}
+}
