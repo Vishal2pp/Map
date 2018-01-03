@@ -193,7 +193,7 @@ function NonResponsive() {
 					grade = 3;
 				} else if (percentageAchieved > 50 && percentageAchieved <= 75) {
 					grade = 4;
-				} else if (percentageAchieved > 75 && percentageAchieved <= 99) {
+				} else if (percentageAchieved > 75 && percentageAchieved < 100) {
 					grade = 5;
 				} else if (percentageAchieved === 100) {
 					grade = 6;
